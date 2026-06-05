@@ -42,7 +42,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/YOUR_USERNAME/tyro-logs.git
+git clone https://github.com/nidevseek/tyro-logs.git
 cd tyro-logs
 ```
 
