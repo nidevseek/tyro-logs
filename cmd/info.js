@@ -110,13 +110,10 @@ module.exports = {
                     {
                         name: lang === 'ru' ? 'Инфо:' : 'Info:',
                         value: `- ${lang === 'ru' ? 'Версия' : 'Version'}: ${versionBot}
-- ${lang === 'ru' ? 'Создал' : 'by'}: <:therikky:1431828143983034499> [ス | therikky_](https://discord.com/users/1411816328888717343)
 - ${lang === 'ru' ? 'Язык' : 'Language'}: ${lang}
 
 **${lang === 'ru' ? 'Ссылки' : 'Links'}**
-- ${lang === 'ru' ? 'Поддержка' : 'Support'}: [${lang === 'ru' ? 'Ссылка' : 'Link'}](https://discord.gg/2FwqWnERuy)
-- ${lang === 'ru' ? 'Ботикорд' : 'Boticord'}: [${lang === 'ru' ? 'Ссылка' : 'Link'}](https://boticord.top/bot/1418885255112163348)
-- ${lang === 'ru' ? 'Сайт' : 'Web'}: [${lang === 'ru' ? 'Ссылка' : 'Link'}](https://zov.one/sny92)`,
+- ${lang === 'ru' ? 'Поддержка' : 'Support'}: [${lang === 'ru' ? 'Ссылка' : 'Link'}](https://discord.gg/)`,
                         inline: true
                     }
                 )
