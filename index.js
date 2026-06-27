@@ -318,8 +318,8 @@ client.on('interactionCreate', async interaction => {
                     .setThumbnail(interaction.guild?.iconURL({ size: 1024, extension: 'webp' }) || 'https://discord.com/assets/411d8a698dd15ddf.png')
                     .setTitle(lang === 'ru' ? 'Доступ запрещён' : 'Access Denied')
                     .setDescription(lang === 'ru'
-                        ? 'Этот сервер заблокирован для использования бота! Если вы считаете это ошибкой, обратитесь в [поддержку](https://discord.gg/4qa7E9rN7U)'
-                        : 'This server is banned from using the bot! If you believe this is a mistake, contact [support](https://discord.gg/4qa7E9rN7U)')
+                        ? 'Этот сервер заблокирован для использования бота! Если вы считаете это ошибкой, обратитесь в [поддержку](https://discord.gg/)'
+                        : 'This server is banned from using the bot! If you believe this is a mistake, contact [support](https://discord.gg/)')
                     .setColor('#fe983e')
                 ]
             });
@@ -331,8 +331,8 @@ client.on('interactionCreate', async interaction => {
                     .setThumbnail(interaction.guild?.iconURL({ size: 1024, extension: 'webp' }) || 'https://discord.com/assets/411d8a698dd15ddf.png')
                     .setTitle(lang === 'ru' ? 'Доступ запрещён' : 'Access Denied')
                     .setDescription(lang === 'ru'
-                        ? 'Вы заблокированы для использования бота! Если вы считаете это ошибкой, обратитесь в [поддержку](https://discord.gg/4qa7E9rN7U)'
-                        : 'You are banned from using the bot! If you believe this is a mistake, contact [support](https://discord.gg/4qa7E9rN7U)')
+                        ? 'Вы заблокированы для использования бота! Если вы считаете это ошибкой, обратитесь в [поддержку](https://discord.gg/)'
+                        : 'You are banned from using the bot! If you believe this is a mistake, contact [support](https://discord.gg/)')
                     .setColor('#fe983e')
                 ]
             });
